@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="dda1b443-0fca-43c7-8800-8efabc502932" name="UMLUseCaseDiagram1" linkedPackageId="bab688cd-97f9-42d8-8b9e-ec20f054afc6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="4f21d9b3-7680-41f3-94db-3fb604f1104b">
+      <profileInstance Id="6c1f2acb-e2c3-4cfe-b55a-8dd5a3dd494e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="913afcea-2178-4d60-9d02-c80d9843fb90">
+      <profileInstance Id="e68010f7-4bea-4108-b8c8-7fe69db6b174" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="0d1b89e9-1f02-4ae0-95f0-03c9f78a4ef2" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="72c760e0-70c1-465d-a2f2-17e00afb3936" />
+        <targetEnds>
+          <association Id="13d93904-d898-429e-9a39-841652f20a6c" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Pick applications" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f470ae75-414a-441a-9eb8-511af8b4621a" LastKnownName="Select applications" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23b610c7-745c-43c9-80af-3857b0af6fcc" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b0c58e8d-6192-4355-a002-37bf5a523c4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7701ee84-98e9-4f45-9c51-10c3cf8f0d21" name="Pick applications" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0e6f25d6-4576-4979-b7d3-4b48020d5956" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="068d39a0-337a-4004-bc73-d15fc6f057f8" />
+          </association>
+          <association Id="e72c61e3-07bc-4939-bcda-73c7e1d56f21" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Size Selection" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="78e5f71f-e8d3-4ca4-96be-020c5c9229a8" LastKnownName="Size Selection" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b9bbe522-f54b-4810-b62c-db08dfcfb3f0" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9bbcef6c-13ca-401d-8cf6-864d853d72fe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="538b3795-08c2-4f70-ab55-f975cd222c52" name="Size Selection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6f7b47c5-74a6-4405-8ce1-86bfff0eb99b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3821a4ae-3447-40bd-8274-c2e6e76384ee" />
+          </association>
+          <association Id="145e1a70-db30-4083-b3b3-07de1b7381f5" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Change application" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="31d77319-09eb-400f-ae10-308e05cf1aba" LastKnownName="Change application" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2025d2b4-523a-4afe-b9a1-056572cba70e" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5b92d3dd-3385-41d8-9158-8def9f5dc6e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91ce95c6-6b40-4767-bd26-f391d704eb64" name="Change application" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fb127fe6-b64a-4c44-9863-6de4677989e9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c3c0be96-fc81-4604-b094-6db6b4fa907e" />
+          </association>
+          <association Id="716eae5d-3a4b-4cbd-bf01-5951fa63835f" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Settings" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="88e7ae6c-e0e2-409b-83fd-b231a2edbf7e" LastKnownName="Settings" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5cc628ff-723f-4e99-b666-169af9cba0ea" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="76285755-5559-4b05-ae5c-46cbef0d29eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e458293c-b673-4612-b0c7-dabad9827b23" name="Settings" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a205abb6-15e8-483d-922e-dfeb0d99d77e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dda7d0e4-9979-4530-a967-27a1e0905495" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f470ae75-414a-441a-9eb8-511af8b4621a" name="Select applications" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2548868e-4d00-45d3-9b4a-a25f013c207c" />
+        <extendedCases>
+          <extend Id="a0d65ba4-ad49-4e0f-88b2-95c2f47a56c9">
+            <useCaseMoniker Id="78e5f71f-e8d3-4ca4-96be-020c5c9229a8" LastKnownName="Size Selection" />
+            <elementDefinition Id="0a3f7da8-ed5c-4770-8e6a-04d282524191" />
+          </extend>
+          <extend Id="6e4e8d20-759b-4986-9d52-a49050bf8492">
+            <useCaseMoniker Id="31d77319-09eb-400f-ae10-308e05cf1aba" LastKnownName="Change application" />
+            <elementDefinition Id="0d7671b4-f6a6-406f-8a4f-3db095cc9e2d" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="78e5f71f-e8d3-4ca4-96be-020c5c9229a8" name="Size Selection" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee8d5ddd-d913-41dd-920e-f84cd6f06af9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="31d77319-09eb-400f-ae10-308e05cf1aba" name="Change application" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8961f4b0-8db8-40da-a2e5-2d75a253bcf0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="88e7ae6c-e0e2-409b-83fd-b231a2edbf7e" name="Settings" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e2fe4c53-7ff4-4cc7-9733-13cd47375ec8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="bab688cd-97f9-42d8-8b9e-ec20f054afc6" name="project">
+    <elementDefinition Id="d26e0c8f-5443-4b01-9bd3-0966802407c8" />
+  </package>
+</useCaseModelRoot>

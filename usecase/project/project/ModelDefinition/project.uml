@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="d26e0c8f-5443-4b01-9bd3-0966802407c8"
+  name="project" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="72c760e0-70c1-465d-a2f2-17e00afb3936"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="068d39a0-337a-4004-bc73-d15fc6f057f8"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Pick applications"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2548868e-4d00-45d3-9b4a-a25f013c207c"
+              LastKnownName="Select applications"
+              LastKnownLocation="project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0c58e8d-6192-4355-a002-37bf5a523c4a"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e6f25d6-4576-4979-b7d3-4b48020d5956"
+                  name="Pick applications"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3821a4ae-3447-40bd-8274-c2e6e76384ee"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Size Selection"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ee8d5ddd-d913-41dd-920e-f84cd6f06af9"
+              LastKnownName="Size Selection"
+              LastKnownLocation="project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9bbcef6c-13ca-401d-8cf6-864d853d72fe"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f7b47c5-74a6-4405-8ce1-86bfff0eb99b"
+                  name="Size Selection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c3c0be96-fc81-4604-b094-6db6b4fa907e"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Change application"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8961f4b0-8db8-40da-a2e5-2d75a253bcf0"
+              LastKnownName="Change application"
+              LastKnownLocation="project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5b92d3dd-3385-41d8-9158-8def9f5dc6e6"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb127fe6-b64a-4c44-9863-6de4677989e9"
+                  name="Change application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dda7d0e4-9979-4530-a967-27a1e0905495"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Settings"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e2fe4c53-7ff4-4cc7-9733-13cd47375ec8"
+              LastKnownName="Settings"
+              LastKnownLocation="project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="76285755-5559-4b05-ae5c-46cbef0d29eb"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a205abb6-15e8-483d-922e-dfeb0d99d77e"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2548868e-4d00-45d3-9b4a-a25f013c207c"
+        name="Select applications"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="0a3f7da8-ed5c-4770-8e6a-04d282524191">
+            <useCaseMoniker
+              Id="ee8d5ddd-d913-41dd-920e-f84cd6f06af9"
+              LastKnownName="Size Selection"
+              LastKnownLocation="project.uml" />
+          </extend>
+          <extend
+            Id="0d7671b4-f6a6-406f-8a4f-3db095cc9e2d">
+            <useCaseMoniker
+              Id="8961f4b0-8db8-40da-a2e5-2d75a253bcf0"
+              LastKnownName="Change application"
+              LastKnownLocation="project.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ee8d5ddd-d913-41dd-920e-f84cd6f06af9"
+        name="Size Selection"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8961f4b0-8db8-40da-a2e5-2d75a253bcf0"
+        name="Change application"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e2fe4c53-7ff4-4cc7-9733-13cd47375ec8"
+        name="Settings"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
